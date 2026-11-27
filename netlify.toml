@@ -1,0 +1,29 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+[build.environment]
+  NODE_VERSION = "22"
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["lib/brief.txt"]
+[[redirects]]
+  from = "/api/image"
+  to = "/.netlify/functions/image-background"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/api/text"
+  to = "/.netlify/functions/text-background"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+  force = true
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    X-Frame-Options = "DENY"

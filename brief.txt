@@ -1,0 +1,835 @@
+# BOBY — Soby.ai's Personal AI Creative Studio
+
+## 1. Project Overview
+
+Build a fully functional, interactive, AI-powered web application called **Boby**, exclusively designed for Soby.ai's Instagram content creation workflow.
+
+Boby should act as my personal scriptwriter, creative director, video editing advisor, hook strategist, thumbnail designer and social media copywriter.
+
+This should become my go-to platform whenever I want to create a new AI-related Instagram Reel, whether it is an AI tool introduction, tutorial, creative showcase, educational video or purely entertaining AI creation.
+
+The platform must follow a structured three-stage workflow:
+
+- Stage 1 — Scriptwriting & Creative Direction
+- Stage 2 — Thumbnail Generation
+- Stage 3 — Caption & SEO Generation
+
+All three stages must be interconnected while maintaining strict approval checkpoints.
+
+## 2. UI & Website Design
+
+Create a premium, minimalist, modern interface inspired by ChatGPT's conversational layout.
+
+**Brand identity:**
+
+- Application name: Boby
+- Subtitle: Your Personal AI Creative Studio
+- Powered by: Soby.ai
+- Primary brand colour: #F04301
+- Secondary colours: White, black and subtle light grey
+- Typography: Modern, bold, clean sans-serif
+- Design style: Minimalistic, professional and creator-focused
+- Responsive across desktop, tablet and mobile
+
+### Left Sidebar
+
+- New Creative Project
+- Previous Projects
+- Saved Scripts
+- Thumbnail Library
+- Character Sheet Library
+- Brand Guidelines
+- Reference Library
+- Settings
+
+### Central Workspace
+
+A ChatGPT-style conversational interface where I can:
+
+- Describe my video idea.
+- Upload reference images, videos and PDFs.
+- Paste Instagram, YouTube, TikTok or other video links.
+- Provide information about AI tools.
+- Generate and revise scripts.
+- Communicate creative feedback naturally.
+- Confirm my final script.
+
+### Right Sidebar — Creative Workspace
+
+A dynamic panel that changes according to the current workflow stage.
+
+It should contain:
+
+- Video duration settings
+- Content category
+- Creative objective
+- Hook suggestions
+- Character sheet uploader
+- Thumbnail title suggestions
+- Thumbnail preview and generation controls
+- Caption generator
+- Project progress
+
+Display a progress indicator showing:
+
+**Scriptwriting → Thumbnail → Caption**
+
+On mobile devices, convert the right sidebar into an expandable workspace.
+
+---
+
+# STAGE 1 — SCRIPTWRITING & CREATIVE DIRECTION
+
+## 3. Understanding the Content Brief
+
+Whenever I start a new project, Boby should accept any combination of the following inputs:
+
+- Written content idea
+- AI tool name or feature
+- Reference video
+- Social media URL
+- Uploaded video
+- Reference images
+- Existing script
+- Screenshots
+- Creative instructions
+- Desired video duration
+
+Boby should analyse the supplied information and identify:
+
+- Primary video objective
+- Target audience
+- Content category
+- Key selling point or creative takeaway
+- Emotional angle
+- Potential visual storytelling opportunities
+- Audience retention strategy
+- Most suitable call to action
+
+Boby should intelligently interpret incomplete creative briefs without repeatedly asking unnecessary questions.
+
+If a reference link cannot be accessed, clearly communicate the limitation and allow me to upload the video or transcript instead. Never pretend to have analysed inaccessible content.
+
+## 4. Content Categories & Video Duration
+
+Automatically identify the appropriate content category while allowing me to change it manually.
+
+| Content Type | Default Duration |
+|---|---|
+| General AI content | 15 seconds |
+| AI tool introduction | 20 seconds |
+| AI tutorial or explainable video | 20 seconds |
+| AI creation showcase | 10 seconds |
+| Entertainment-focused AI video | 10 seconds |
+| AI tips and tricks | 15 seconds |
+| AI tool comparison | 20 seconds |
+| Custom content | User-defined |
+
+Provide a duration selector between 5 and 30 seconds.
+
+**Strict rule: No generated script should exceed 30 seconds.**
+
+Estimate speaking duration based on natural delivery, visual pauses and transitions rather than simply counting words.
+
+Do not force unnecessary explanations into creation-only or entertainment-focused videos.
+
+## 5. Scriptwriting Engine
+
+For every new creative request, Boby must generate exactly **three completely different script options**.
+
+The three options must differ meaningfully in:
+
+- Hook
+- Storytelling approach
+- Delivery style
+- Creative angle
+- Visual execution
+- Audience engagement strategy
+
+Do not generate three slightly reworded versions of the same script.
+
+Possible storytelling approaches include:
+
+- Result-first storytelling
+- Curiosity-driven storytelling
+- Problem and solution
+- Unexpected visual reveal
+- Before-and-after transformation
+- Conversational storytelling
+- Educational demonstration
+- Cinematic entertainment
+- Relatable creator experiences
+- Contrarian or surprising observations
+
+Choose the approaches according to the specific video rather than following a fixed template.
+
+### Soby.ai Scriptwriting Style
+
+- Natural, conversational English.
+- Professional but not corporate.
+- Short, punchy sentences.
+- Strong opening hooks.
+- High audience retention.
+- No unnecessary introductions.
+- No generic AI-generated expressions.
+- No repetitive information.
+- No exaggerated or misleading claims.
+- No unnecessary technical terminology.
+- Avoid sounding like a traditional advertisement.
+- Write for spoken delivery, not for reading an article.
+- Show the result before explaining the process whenever introducing an AI tool.
+- Keep the storytelling visually engaging.
+- Use calls to action naturally when relevant.
+
+The content should position Soby.ai as a knowledgeable, creative and approachable AI content creator.
+
+## 6. Creative Reference Library
+
+Use the following creators as creative inspiration:
+
+- https://www.instagram.com/airohit.tech/
+- https://www.instagram.com/v.i.s.h.ai/
+- https://www.instagram.com/rajhere.in/
+
+Analyse accessible references for:
+
+- Hook execution
+- Storytelling structure
+- Video pacing
+- Screen recording placement
+- Visual transitions
+- Professional presentation
+- Information delivery
+- Audience retention techniques
+
+Use my uploaded script references, PDFs, hook videos and creative examples as primary creative guidelines.
+
+Do not directly copy another creator's script or creative identity.
+
+Closely follow my uploaded references when developing unconventional visual hooks.
+
+Maintain a distinct and recognisable Soby.ai creative identity.
+
+## 7. Script Output Format
+
+Display each script in its own selectable card.
+
+Each script card should include:
+
+- Creative concept
+- Estimated duration
+- Video objective
+- Complete spoken script
+- Opening hook
+- Hook execution instructions
+- Video editing breakdown
+- B-roll suggestions
+- Screen recording suggestions
+- On-screen text
+- Visual transitions
+- Recommended call to action
+
+Include a timestamp-based production breakdown.
+
+Example:
+
+| Timing | Spoken Script | Visual Direction | Editing Instructions |
+|---|---|---|---|
+| 0–2s | Opening hook | AI-generated transformation | Fast visual reveal |
+| 2–5s | Introduce the concept | Talking head | Animated keyword overlay |
+| 5–10s | Demonstrate the feature | Screen recording | Highlight relevant controls |
+| 10–13s | Show the result | Final AI output | Before-and-after transition |
+| 13–15s | Call to action | Talking head | Minimal text animation |
+
+The timestamps must adapt to the selected video duration.
+
+Visual elements must appear at the exact moment they are discussed in the script.
+
+Avoid suggesting random B-roll that has no direct connection to the narration.
+
+Provide individual controls for:
+
+- Copy script
+- Edit script
+- Regenerate script
+- Regenerate hook
+- Shorten script
+- Improve storytelling
+- Change creative angle
+- Select script
+
+Regenerating one script must not overwrite the other two.
+
+## 8. Hook Generation Engine
+
+The opening two seconds are critical.
+
+Every generated script must contain a customised hook strategy that fits its subject, audience and storytelling approach.
+
+Boby should recommend the most suitable combination of:
+
+### Verbal Hook
+
+The opening spoken sentence that creates curiosity, communicates value or immediately attracts attention.
+
+### Visual Hook
+
+A visually engaging opening, such as:
+
+- AI transformation
+- Unexpected character appearance
+- Before-and-after reveal
+- Cinematic AI-generated shot
+- Surreal visual
+- Product transformation
+- Unusual camera perspective
+- Demonstration of the final result
+
+### B-Roll Hook
+
+When appropriate, recommend an opening B-roll sequence instead of a conventional talking-head introduction.
+
+For every visual hook, provide:
+
+- Exact visual description
+- Suggested duration
+- Camera movement
+- Subject movement
+- Editing instructions
+- On-screen text, if necessary
+- Sound effect suggestions
+- Ready-to-use AI generation prompt
+
+The suggested hook must be customised to the selected script and my uploaded creative references.
+
+If an image-based hook is required, use the OpenAI image generation model.
+
+For animated or video-based hooks, provide a production-ready video generation prompt and editing instructions. Only generate an actual video if a supported video-generation capability is explicitly available and authorised.
+
+Never present a static image as a generated video.
+
+## 9. Mandatory Final Script Confirmation
+
+After generating the three scripts, display a dedicated editable text area titled:
+
+**Your Final Script**
+
+Allow me to:
+
+- Select one of the three generated scripts.
+- Manually paste a script.
+- Combine elements from multiple scripts.
+- Rewrite the script myself.
+- Make final adjustments.
+
+Include a button:
+
+**Confirm & Lock Script**
+
+The confirmed script must become the single source of truth for the remaining workflow.
+
+Strict requirements:
+
+- Do not generate thumbnail titles before the script is confirmed.
+- Do not generate thumbnails using unapproved scripts.
+- Do not mix rejected script options into the thumbnail or caption.
+- Do not independently modify the confirmed script.
+- Preserve the exact confirmed wording.
+- Allow me to unlock and edit the script if necessary.
+- If the confirmed script changes, mark downstream thumbnail titles, thumbnails and captions as outdated.
+
+---
+
+# STAGE 2 — THUMBNAIL GENERATOR
+
+## 10. Understanding the Final Script
+
+Once the final script is confirmed, Boby should analyse only that version.
+
+Identify:
+
+- Main video objective
+- Central message
+- AI tool or technology being discussed
+- Strongest curiosity factor
+- Primary audience benefit
+- Emotional angle
+- Most visually recognisable element
+
+The thumbnail should communicate the purpose of the Reel without requiring someone to watch the video first.
+
+## 11. Thumbnail Title Generator
+
+Before generating any thumbnail images, Boby must suggest exactly **five different thumbnail titles**.
+
+Thumbnail titles should be:
+
+- Short
+- Bold
+- Easy to understand
+- Curiosity-driven
+- Relevant to the confirmed script
+- Visually impactful
+- Readable on mobile devices
+- Generally between two and six words
+- Free from misleading clickbait
+
+Examples of the desired style:
+
+- SAME PHOTO. DIFFERENT LENS.
+- THIS ISN'T REAL.
+- STOP PAYING FOR AI.
+- I CLONED MYSELF.
+- ONE PROMPT. INSANE RESULTS.
+- AI JUST CHANGED EVERYTHING.
+
+These are creative style references, not fixed titles to reuse.
+
+Allow me to select, edit or manually enter a thumbnail title.
+
+Display a button:
+
+**Confirm Thumbnail Title**
+
+Only proceed to image generation after the title is confirmed.
+
+## 12. Character Sheet Library
+
+Create a dedicated upload section for my personal character references.
+
+Allow multiple reference images, including:
+
+- Front-facing portrait
+- Left profile
+- Right profile
+- Three-quarter angle
+- Full-body photograph
+- Different facial expressions
+- Hand gestures
+- Clothing references
+
+Allow me to save a default character sheet and reuse it across multiple projects without uploading it repeatedly.
+
+Provide the ability to replace, update or delete the saved character sheet.
+
+### Character Consistency Rules
+
+Whenever I appear in a generated thumbnail, use my saved character sheet as the primary identity reference.
+
+Preserve as closely as the image model allows:
+
+- Facial structure
+- Eyes
+- Nose
+- Lips
+- Jawline
+- Hair texture and hairstyle
+- Skin tone and complexion
+- Facial proportions
+- Body structure
+- Natural physical proportions
+- Recognisable personal characteristics
+- Hand anatomy
+
+Expressions, poses and gestures may change according to the confirmed creative direction, but my underlying identity must remain consistent.
+
+Do not unnecessarily beautify, age, de-age, reshape or stylise my appearance.
+
+Avoid:
+
+- Plastic-looking skin
+- Artificial facial features
+- Unnatural expressions
+- Distorted hands
+- Excessive retouching
+- Exaggerated body proportions
+- Obvious AI-generated aesthetics
+
+Treat identity preservation as a critical generation requirement. Do not claim guaranteed pixel-perfect facial consistency when the underlying model cannot guarantee it.
+
+## 13. Thumbnail Design Guidelines
+
+All thumbnails must follow the Soby.ai visual identity.
+
+**Default design specifications:**
+
+- Aspect ratio: 9:16
+- Target resolution: 1080 × 1920 pixels
+- High-quality, sharp imagery
+- Minimalistic background
+- Clean composition
+- Strong visual hierarchy
+- Bold, loud headline typography
+- Primary headline colour: #F04301
+- Professional creator aesthetic
+- Photorealistic character appearance
+- Strong contrast
+- Minimal visual clutter
+
+Typography should use a heavy, modern sans-serif style similar to Montserrat ExtraBold or Poppins ExtraBold.
+
+Keep important text and facial features within safe zones for Instagram Reel previews and profile-grid cropping.
+
+The thumbnail must feel intentionally designed rather than randomly generated by AI.
+
+Allow creative variation according to the script, including:
+
+- Minimal white backgrounds
+- Light grey studio backgrounds
+- Clean editorial layouts
+- AI tool demonstrations
+- Product compositions
+- Before-and-after layouts
+- Cinematic imagery where relevant
+
+Maintain a minimalist approach unless I explicitly request otherwise.
+
+Do not add unrelated decorative elements, fake logos or unnecessary text.
+
+## 14. OpenAI Image Generation Integration
+
+Use only the official OpenAI image generation model for:
+
+- Reel thumbnails
+- AI-generated character visuals
+- Static visual hooks
+- Thumbnail variations
+- Image editing
+
+Do not use Midjourney, Stable Diffusion, Flux, Google image models or other third-party image generation models.
+
+Use the latest supported OpenAI image generation capability available through the configured API.
+
+The image generation request must include:
+
+- Confirmed final script
+- Confirmed thumbnail title
+- Character sheet references
+- Creative objective
+- Brand colour
+- Composition instructions
+- Identity consistency requirements
+- Aspect ratio and safe-zone instructions
+
+Where exact typography or brand colour accuracy is required, use editable text overlays on top of the OpenAI-generated visual. This ensures correct spelling, positioning and precise #F04301 colour application.
+
+Export the final composition at 1080 × 1920 pixels.
+
+## 15. Thumbnail Controls
+
+Provide the following controls:
+
+- Generate Thumbnail
+- Generate Variation
+- Edit Background
+- Change Pose
+- Change Expression
+- Adjust Headline
+- Change Composition
+- Adjust Text Position
+- Upload Additional Reference
+- Compare Versions
+- Download High-Resolution PNG
+- Approve Final Thumbnail
+
+When I request a specific change, preserve all other approved elements as closely as technically possible.
+
+Maintain previous thumbnail versions so that I can return to an earlier design.
+
+Only proceed to the caption stage after thumbnail approval.
+
+---
+
+# STAGE 3 — CAPTION & SEO GENERATOR
+
+## 16. Caption Generation
+
+After the thumbnail is approved, Boby should generate Instagram captions using only:
+
+- Confirmed final script
+- Video objective
+- Approved thumbnail direction
+- Relevant AI tools
+- Target audience
+- Relevant search keywords
+
+Generate three distinct caption options by default.
+
+Caption style should be:
+
+- Short and engaging
+- Conversational
+- SEO-optimised
+- Professional but casual
+- Direct
+- Minimal emojis
+- Relevant to the actual video
+- Free from unnecessary explanations
+
+Do not simply repeat the entire spoken script in the caption.
+
+## 17. Mandatory Caption Format
+
+Every caption must follow this structure:
+
+1. Opening statement describing the content or creating curiosity.
+2. Relevant call to action.
+3. Optional short audience engagement question.
+4. SEO keywords inside parentheses.
+5. Exactly three relevant hashtags.
+
+Example:
+
+1 photo, 10 different lenses and views. Comment VIEWS and I'll send you the prompt.
+
+What do you wanna see next?
+
+(AI, AI content, AI creator, OpenAI, ChatGPT, AI prompts, AI images, Higgsfield, AI photography, camera lenses, Dubai creator)
+
+#aiimages #aicreator #aiprompts
+
+## 18. SEO Keyword Rules
+
+Include approximately 8–12 relevant search keywords in parentheses.
+
+Keywords may include:
+
+- AI
+- Artificial intelligence
+- AI content
+- AI creator
+- AI content creator
+- OpenAI
+- ChatGPT
+- AI prompts
+- AI images
+- AI videos
+- Generative AI
+- Higgsfield AI
+- AI filmmaking
+- AI photography
+- Dubai creator
+- Dubai content creator
+
+Adapt the keywords according to the specific video.
+
+Include the names of relevant AI tools only when they genuinely relate to the content.
+
+Prioritise Dubai-related keywords when the content involves Dubai, local experiences, Dubai-based brands or my creator positioning.
+
+Avoid irrelevant keyword stuffing.
+
+Every caption must end with exactly three relevant hashtags.
+
+## 19. Call-to-Action Rules
+
+Suggest a relevant CTA depending on the video objective.
+
+Examples:
+
+- Comment PROMPT and I'll send it to you.
+- Comment GUIDE for the complete breakdown.
+- Comment VIEWS and I'll share the prompts.
+- Save this for your next AI creation.
+- Which version would you choose?
+- What should I create next?
+
+Do not promise that a prompt, guide or resource will be automatically delivered unless I have confirmed that the resource or corresponding DM automation exists.
+
+Allow me to customise the comment-trigger keyword.
+
+Provide controls to:
+
+- Copy caption
+- Regenerate caption
+- Shorten caption
+- Change CTA
+- Edit SEO keywords
+- Regenerate hashtags
+- Approve final caption
+
+---
+
+# 20. Project Management & Creative Memory
+
+Every new video should be treated as an independent creative project.
+
+Save the following within each project:
+
+- Project name
+- Original creative brief
+- Reference files and links
+- Selected content category
+- Video duration
+- Three generated scripts
+- Confirmed final script
+- Hook strategy
+- Editing instructions
+- Thumbnail title options
+- Confirmed title
+- Generated thumbnail versions
+- Approved thumbnail
+- Generated captions
+- Approved final caption
+- Project status
+
+Automatically save project progress.
+
+Allow me to reopen previous projects and continue from where I stopped.
+
+Maintain separate project statuses:
+
+- Draft
+- Script Confirmed
+- Thumbnail in Progress
+- Thumbnail Approved
+- Caption Approved
+- Completed
+
+Boby should learn from my explicitly approved scripts, thumbnails and creative feedback by storing them as reusable preferences.
+
+Distinguish between:
+
+- Permanent creative preferences
+- Project-specific instructions
+- Rejected creative suggestions
+
+Do not automatically convert a one-time creative instruction into a permanent brand guideline.
+
+---
+
+# 21. Proactive Creative Assistance
+
+Boby should operate in two modes:
+
+**On-Demand Mode**
+
+Respond to my specific ideas, references and creative requests.
+
+**Creative Discovery Mode**
+
+Proactively suggest relevant content ideas when requested, including:
+
+- New AI tools
+- Interesting AI features
+- Creative AI experiments
+- AI content trends
+- Educational Reel concepts
+- Entertainment-focused AI creations
+- Dubai-related AI content opportunities
+
+When suggesting current AI tools, features or trends, verify information using available current sources.
+
+Never invent AI features, pricing, release dates or tool capabilities.
+
+---
+
+# 22. Technical & Functional Requirements
+
+Build a genuinely functional application, not merely a visual mockup.
+
+Include:
+
+- Functional conversational interface
+- OpenAI text generation integration
+- OpenAI image generation integration
+- Reference file uploads
+- Character sheet management
+- Structured AI-generated outputs
+- Script selection and confirmation
+- Thumbnail title selection
+- Image generation and revision
+- Caption generation
+- Project history
+- Persistent storage
+- Responsive layouts
+- Copy and export functionality
+- Loading indicators
+- Error handling
+- Retry functionality
+
+Use structured data and separate AI instructions for each workflow stage to prevent context contamination.
+
+Keep API credentials securely on the server. Never expose API keys in frontend code.
+
+Provide secure authentication for my personal workspace and protect uploaded character references.
+
+Use a database and secure file storage for persistent project history and cross-device access.
+
+Support deletion of projects and uploaded personal references.
+
+Clearly distinguish between real AI-generated outputs and demonstration content.
+
+If an API or integration is not configured, display a clear setup requirement instead of pretending the functionality is working.
+
+Provide:
+
+- Complete application source code
+- Installation instructions
+- Environment variable configuration
+- OpenAI API setup instructions
+- Database configuration
+- Deployment instructions
+- Explanation of potential API and hosting costs
+
+Use sensible technical defaults without asking unnecessary development questions.
+
+---
+
+# 23. Mandatory Workflow Logic
+
+The application must enforce the following sequence:
+
+1. User submits a creative idea or reference.
+2. Boby analyses the brief.
+3. Boby determines the content category and duration.
+4. Boby generates three different scripts.
+5. Each script includes hooks and editing instructions.
+6. User selects, edits or pastes the final script.
+7. User confirms and locks the final script.
+8. Boby analyses the confirmed script objective.
+9. Boby generates five thumbnail title options.
+10. User confirms the thumbnail title.
+11. Boby uses the saved character sheet and brand guidelines.
+12. Boby generates the thumbnail through OpenAI.
+13. User reviews, revises and approves the thumbnail.
+14. Boby generates three SEO-optimised caption options.
+15. User approves the final caption.
+16. The completed creative package is saved and available for export.
+
+No later stage should override an earlier approved stage.
+
+---
+
+# 24. Final Creative Package
+
+Once the project is completed, display a summary containing:
+
+- Video concept
+- Final video duration
+- Approved spoken script
+- Opening hook
+- AI visual generation prompts
+- Timestamp-based editing instructions
+- B-roll requirements
+- Approved thumbnail title
+- Final thumbnail
+- Final Instagram caption
+- SEO keywords
+- Three hashtags
+
+Include a **Download Creative Package** button that exports the approved creative assets and production instructions.
+
+---
+
+# 25. Final Instruction to the Development AI
+
+Build Boby as a complete, professional AI content creation workspace specifically tailored to Soby.ai.
+
+Prioritise functionality, creative quality, identity consistency, speed, simplicity and continuity between workflow stages.
+
+Do not create a generic chatbot with a different name.
+
+Boby must understand the complete content production process, respect creative approvals and maintain the established Soby.ai identity.
+
+Use the requirements above as the complete development brief. Make reasonable technical decisions independently, document those decisions and proceed with building the working application without unnecessary clarification questions.
